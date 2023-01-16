@@ -1,3 +1,4 @@
+/* style */
 ul,
 ol {
   list-style: none;
@@ -7,6 +8,11 @@ a {
   text-decoration: none;
 }
 
+ul {
+  display: flex;
+}
+
+/* heder */
 .top-heder {
   width: 1440px;
   height: 72px;
@@ -17,16 +23,8 @@ a {
   display: flex;
 }
 
-.phone-mail-txt {
-  margin-right: 30px;
-}
-
-.contact-phone {
-  margin: 0;
-}
-
 .main-txt {
-  color: navy;
+  color: #2e2f42;
 }
 
 .menu-items {
@@ -36,53 +34,23 @@ a {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: navy;
+  color: #2e2f42;
   display: flex;
   width: 261px;
   padding-left: 40px;
   text-align: center;
 }
 
-.menu-link {
-  color: navy;
+.menu-link:hover {
+  color: #404bbf;
 }
 
-.menu-items:hover {
-  color: #000000;
+.menu-link {
+  color: #2e2f42;
 }
 
 .menu {
   display: flex;
-}
-
-.main-logo {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  padding-right: 76px;
-}
-
-.fotter-logo {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 21px;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .contact-mail {
@@ -107,21 +75,33 @@ a {
   text-align: right;
 }
 
-.contact-mail,
+.phone-mail-txt {
+  margin-right: 30px;
+}
+
 .contact-phone {
-  text-align: right;
+  margin: 0;
 }
 
-.menu-items:hover,
-.menu-items:focus {
+.contact-mail:hover {
   color: #404bbf;
 }
 
-.contact-mail:hover,
-.contact-mail:focus {
-  color: #404bbf;
+.main-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  padding-right: 76px;
 }
 
+/* button */
 .button {
   display: flex;
   flex-direction: row;
@@ -140,7 +120,7 @@ a {
 .button:hover {
   background-color: #404bbf;
 }
-
+/* hero */
 .hero-txt {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -164,7 +144,7 @@ a {
 
   background: #2e2f42;
 }
-
+/* section 1 */
 .section-1 {
   display: flex;
   font-family: "Roboto", sans-serif;
@@ -181,9 +161,95 @@ a {
   padding-right: 156px;
   width: 1228px;
 }
+/* section 2 */
+.section-2-txt {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  padding-right: 24px;
+  width: 1228px;
+}
+.section-2 {
+  padding-left: 156px;
+  padding-right: 156px;
+}
 
-ul {
+.section-2-photo {
   display: flex;
+  width: 65%;
+  margin-right: 24px;
+  width: 1228px;
+}
+/* section 3 */
+.section-3 {
+  width: 1440px;
+  height: 500px;
+  left: 0px;
+  top: 1548px;
+  background: #f4f4fd;
+  padding-left: 156px;
+}
+
+.section-3-txt {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  padding-right: 250px;
+}
+
+.section-3-photo {
+  display: flex;
+  margin-right: 24px;
+}
+
+.section-3-name {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.section-3-profesint {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* fotter */
+.fotter-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .footer {
@@ -222,78 +288,4 @@ ul {
 
 .studio-txt {
   color: white;
-}
-
-.section-2-txt {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 40px;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-  padding-right: 24px;
-  width: 1228px;
-}
-
-.section-2 {
-  padding-left: 156px;
-  padding-right: 156px;
-}
-
-.section-2-photo {
-  display: flex;
-  width: 65%;
-  margin-right: 24px;
-  width: 1228px;
-}
-
-.section-3 {
-  width: 1440px;
-  height: 500px;
-  left: 0px;
-  top: 1548px;
-  background: #f4f4fd;
-  padding-left: 156px;
-}
-
-.section-3-txt {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 40px;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
-.section-3-photo {
-  display: flex;
-  margin-right: 24px;
-}
-
-.section-3-name {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.section-3-profesint {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #434455;
 }
