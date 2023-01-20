@@ -7,7 +7,11 @@ ul {
 .logo,
 .logo-txt,
 .contact-mail,
-.contact-phone {
+.contact-phone,
+.logo-f,
+.logo-txt-f,
+.f-logo,
+.f-txt-logo {
   text-decoration: none;
 }
 
