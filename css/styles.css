@@ -133,7 +133,7 @@ body {
   margin-left: 473px;
   color: #ffffff;
 }
-.btn {
+.button {
   position: absolute;
   width: 169px;
   height: 56px;
@@ -156,8 +156,8 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
 }
-.btn:hover,
-.btn:focus {
+.button:hover,
+.button:focus {
   background: #404bbf;
 }
 /* section 1 */
